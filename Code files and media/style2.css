@@ -70,10 +70,10 @@ button{
     border-radius: 50px;
     cursor: pointer;
     transition: all 0.3sec ease 0s;
-width:fit-content;
+    width:fit-content;
 }
 button:hover{
-    background-color: rgba(0, 136, 169, 0.8) ;
+    background-color: rgba(208, 239, 244, 0.8) ;
 }
 section {
     /* Replace 60px with your navbar height */
@@ -284,7 +284,6 @@ footer{
 
 
 .pos_product{
-
     border-radius: 20px;
     line-height: 20px;
     background-color: #24252A;
@@ -302,4 +301,12 @@ footer{
 }
 .heading1{
     padding-top: 100px;
+}
+.products_image{
+    /* height: 30px; */
+    margin: 20px;
+}
+.products_name{
+    padding: 50px;
+    margin: 50px;
 }
