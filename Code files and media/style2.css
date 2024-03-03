@@ -322,9 +322,14 @@ footer{
 }
 .pos_product button{
     margin:30px 10px 10px 10px;
+    /* border-radius: 0px; */
+    padding: 10px 10px 10px 10px;
 }
 .pos_product p{
     color: #5d658d;
     line-height: 10px;
     font-weight: 700;
+}
+ button.Show:hover{
+    background-color: rgb(222, 242, 246);
 }
