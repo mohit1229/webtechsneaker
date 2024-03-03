@@ -264,3 +264,42 @@ footer{
     display: block;
     width: 100%;
 }
+
+
+.grids_product{
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    height: calc(100vh-80px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    background-color: #edf0f1;
+    flex-wrap: wrap;
+}
+
+
+.pos_product{
+
+    border-radius: 20px;
+    line-height: 20px;
+    background-color: #24252A;
+    display: inline-block;
+    height: 400px;
+    width: 300px;
+    font-size: 10px;
+    font-weight: lighter;
+    text-align: center;
+    position: relative;
+    color: #edf0f1;
+    padding: 20px 20px;
+    transition: 0.2s ease-in-out;
+    align-items: flex-start;
+}
+.heading1{
+    padding-top: 100px;
+}
