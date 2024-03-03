@@ -1,0 +1,494 @@
+@import url('https://fonts.cdnfonts.com/css/outfit');
+@import url('https://fonts.cdnfonts.com/css/futura-std-4');
+@import url('https://fonts.cdnfonts.com/css/satoshi');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/chinese-rocks');
+
+/* * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+} */
+
+/* body {
+    font-family: 'Outfit', sans-serif;
+    width: 100%;
+    margin: 0 10px;
+    transition: 0.2s background ease-in-out;
+    background-color: yellow;
+} */
+
+/* li,
+a,
+button {
+    font-weight: 500;
+    font-size: 16px;
+    color: #F6E7EE;
+    text-decoration: none;
+} */
+
+/* header{
+    position:fixed;
+    background-color: #24252A;
+    width: 100%;
+    box-shadow: 1px 1px 7px black;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 22px 6%;
+    z-index: 99999;
+}
+.logo{
+    cursor: pointer;
+    margin-right: auto;
+    height: 50px;
+}
+.navlinks{
+    list-style: none;
+}
+.navlinks li{
+    display: inline-block;
+    padding: 0px 20px;
+
+}
+.navlinks li a{
+    transition: all 0.3sec ease 0s;
+
+}
+
+.navlinks li a:hover{
+    color:#BE1332;
+    text-decoration: underline;
+} */
+/* 
+#contact {
+    margin-right: 85px;
+}
+
+button {
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: #BE1332;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    width: fit-content;
+}
+
+button:hover {
+    background-color: rgba(0, 136, 169, 0.8);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0; /* Adjust the padding as needed 
+}*/
+
+.big-heading {
+    text-align: center;
+    font-size: 180px;   
+    font-weight: bold;
+    margin-top: 50px;  
+} 
+
+.image-container {
+    text-align: center;
+    margin-top: 20px;  
+}
+
+/* .main-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+
+.mainphoto {
+    width: 100%;
+    max-width: 500px;  
+    height: auto;
+    filter: contrast(200px);
+    transform: scale(1.1) rotate(30deg) scaleX(-1);
+    box-shadow: 0px 0px 20px #000;  
+    z-index: 99;
+    transition: 0.7s ease-in;
+}
+
+.mainphoto:hover {
+    transform: scale(1.4) rotate(0deg) scaleX(-1);
+}
+/*
+.about-section {
+    margin-bottom: 50px; /* Adjust the margin bottom as needed 
+}
+footer {
+    background-color: #000000; /* Black background 
+    /* padding: 20px; Adjust padding as needed 
+    text-align: center; /* Center align the text 
+}
+.copyright p
+    color: #ffffff; /* White text color 
+    font-size: 18px; /* Increase font size 
+} */
+
+
+
+
+
+
+/* ----------------------------------------------------------------------------- */
+
+
+
+
+
+
+
+@import url('https://fonts.cdnfonts.com/css/outfit');@import url('https://fonts.cdnfonts.com/css/futura-std-4');@import url('https://fonts.cdnfonts.com/css/satoshi');@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/chinese-rocks');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+#logoo{
+    font-family: 'Chinese Rocks Rg',sans-serif;
+    color: #edf0f1;
+}
+body{
+    
+    font-family: 'Outfit',sans-serif;
+    width: 100%;
+    margin: 0 auto;
+    transition: 0.2sec background ease-in-out;
+}
+li,a,button{
+
+    font-weight: 500;
+    font-size: 16px;
+    color: #F6E7EE;
+    text-decoration: none;
+}
+header{
+    position:fixed;
+    background-color: #24252A;
+    width: 100%;
+    box-shadow: 1px 1px 7px black;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 22px 6%;
+    z-index: 99999;
+}
+.logo{
+    cursor: pointer;
+    margin-right: auto;
+    height: 50px;
+}
+.navlinks{
+    list-style: none;
+}
+.navlinks li{
+    display: inline-block;
+    padding: 0px 20px;
+
+}
+.navlinks li a{
+    transition: all 0.3sec ease 0s;
+
+}
+
+.navlinks li a:hover{
+    color:#BE1332;
+    text-decoration: underline;
+}
+
+#contact{
+    margin-right: 85px;
+}
+
+button{
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: #BE1332;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3sec ease 0s;
+    width:fit-content;
+}
+button:hover{
+    background-color: rgba(208, 239, 244, 0.8) ;
+}
+section {
+    /* Replace 60px with your navbar height */
+    background-color: #edf0f1;
+  }
+.mainphoto{
+    width:100%;
+    height:100%;
+    filter: contrast(200px);
+    transform: scale(1.1) rotate(30deg) scaleX(-1);
+    box-shadow: #24252A;
+    z-index: 99;
+    transition: 0.7s ease-in;
+
+}
+.mainphoto:hover{
+    transform: scale(1.4) rotate(0deg) scaleX(-1);
+    
+}
+.textstuff{
+    width: 600px;
+    height: 500px;
+    padding-right: 6%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+.imagecontainer{
+    padding-left: 5%;
+    width: 680px;
+    height: 825px;
+}
+/* For Shadow of Shoe */
+.imagecontainer::after {
+    content: "";
+    position: absolute;
+    bottom: 100px; /* Adjust shadow distance from the ground */
+    left: 0;
+    width: 23%;
+    border-radius: 75%;
+    height: 18px; /* Adjust shadow height as needed */
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.2) 70%, rgba(0, 0, 0, 0) 100%);
+    /* Adjust gradient colors and positions for desired shadow effect */
+    transform: scaleX(1.5) scaleX(-1); /* Optional: stretch the shadow slightly */
+    filter: blur(8px);  
+    margin-left: 120px;
+}
+
+.imagecontainer img {
+    /* filter: drop-shadow(7px 7px 7px #666666); */
+    object-fit: contain;
+  }
+
+.content{
+    position: relative;
+    bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin:0px 20px;
+    background-color: #edf0f1;
+   
+    height: calc(100vh-80px);
+}
+.heading{
+    font-size: 50px;
+    margin-bottom:20px ;
+}
+.description{
+
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.4rem;
+}
+.mainbutton{
+    padding-top: 20px;
+    
+
+}
+.Buy{
+    margin:0px 10px 0px 0px;
+    padding: 10px 20px;
+    width:fit-content;
+    transition: 0.2sec all ease-in;
+    
+    }
+    .Buy:hover{
+       transform: scale(1.05);
+    }
+.Show{
+    margin: 0;
+    background-color: #edf0f1;
+    padding: 10px 20px;
+    width:fit-content;
+    transition: 0.2sec all ease-in;
+    border: 3px solid #BE1332;
+    color: #BE1332;
+    margin-right: 5px;
+
+}
+.Show:hover{
+   transform: scale(1.05);
+}
+.grids{
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 30px;
+    height: calc(100vh-80px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    background-color: #edf0f1;
+}
+.grids:hover{
+    gap:-20px;
+}
+.pos{
+
+    border-radius: 20px;
+    line-height: 20px;
+    background-color: #24252A;
+    display: inline-block;
+    height: 400px;
+    width: 300px;
+    font-size: 10px;
+    font-weight: lighter;
+    text-align: center;
+    position: relative;
+    color: #edf0f1;
+    padding: 20px 20px;
+    transition: 0.2s ease-in-out;
+    
+}
+.pos:hover{
+    
+    border: 5px solid #BE1332;
+    z-index: 99;
+    
+    transform: scale(1.1);
+}
+p{
+    padding-top: 15px;
+    font-size: 22px;
+
+}
+
+h2{
+    padding-top: 20px;
+    font-size: 25px;
+    line-height: 30px;
+}
+.Trending {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20px;
+    padding:22px 6% ;
+    background-color: #edf0f1;
+    
+    height: 100vh;
+  }
+  
+  .flextrending {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100% ; /* Note: I moved this line from the paragraph to the div */
+  }
+
+  h1 {
+    text-align: center;
+    margin: 0;
+     /* Reset margin */
+  }
+  .foot{
+    padding: 40px 0px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    gap:100px;
+    list-style:none;
+  }
+
+
+footer{
+    height: 30vh;
+    background-color: #24252A;
+    color:#edf0f1;
+}
+#trend{
+    display: block;
+    width: 100%;
+}
+
+
+.grids_product{
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    height: calc(120vh-10px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    background-color: #edf0f1;
+    flex-wrap: wrap;
+}
+
+
+.pos_product{
+    border-radius: 20px;
+    line-height: 20px;
+    background-color: #24252A;
+    display: inline-block;
+    height: 450px;
+    width: 350px;
+    font-size: 10px;
+    font-weight: lighter;
+    text-align: center;
+    position: relative;
+    color: #edf0f1;
+    padding: 20px 20px;
+    transition: 0.2s ease-in-out;
+    align-items: flex-start;
+}
+
+.pos_product:hover{
+    border: 5px solid #BE1332;
+    z-index: 99;
+    transform: scale(1.1);
+}
+
+.heading1{
+    padding-top: 100px;
+}
+
+.products_image{
+    /* height: 30px; */
+    margin: 20px;
+}
+
+.products_name{
+    padding: 50px;
+    margin: 50px;
+}
+.pos_product button{
+    margin:30px 10px 10px 10px;
+    /* border-radius: 0px; */
+    padding: 10px 10px 10px 10px;
+}
+.pos_product p{
+    color: #5d658d;
+    line-height: 10px;
+    font-weight: 700;
+}
+ button.Show:hover{
+    background-color: rgb(175, 189, 192) ;
+}
+
+.container section{
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 100px;
+}
