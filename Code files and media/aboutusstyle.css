@@ -26,8 +26,8 @@ button {
     text-decoration: none;
 }
 
-header {
-    position: fixed;
+header{
+    position:fixed;
     background-color: #24252A;
     width: 100%;
     box-shadow: 1px 1px 7px black;
@@ -37,28 +37,26 @@ header {
     padding: 22px 6%;
     z-index: 99999;
 }
-
-.logo {
+.logo{
     cursor: pointer;
     margin-right: auto;
     height: 50px;
 }
-
-.navlinks {
+.navlinks{
     list-style: none;
 }
-
-.navlinks li {
+.navlinks li{
     display: inline-block;
     padding: 0px 20px;
+
+}
+.navlinks li a{
+    transition: all 0.3sec ease 0s;
+
 }
 
-.navlinks li a {
-    transition: all 0.3s ease 0s;
-}
-
-.navlinks li a:hover {
-    color: #BE1332;
+.navlinks li a:hover{
+    color:#BE1332;
     text-decoration: underline;
 }
 
