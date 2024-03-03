@@ -123,3 +123,13 @@ button:hover {
 .about-section {
     margin-bottom: 50px; /* Adjust the margin bottom as needed */
 }
+footer {
+    background-color: #000000; /* Black background */
+    padding: 20px; /* Adjust padding as needed */
+    text-align: center; /* Center align the text */
+}
+
+.copyright p {
+    color: #ffffff; /* White text color */
+    font-size: 18px; /* Increase font size */
+}
