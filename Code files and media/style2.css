@@ -207,27 +207,34 @@ section {
 .grids:hover{
     gap:-20px;
 }
+/* .grids img{
+    opacity: 0.2;
+} */
 .pos1{
-    background-image: url("./xback1.jpg");
+    background-image: url("./back1.jpg");
     background-size: cover; /* Ensure the background image covers the entire container */
         background-position: center; /* Center the background image */
         background-repeat: no-repeat; /* Prevent the background image from repeating */
    background-color: rgba(0, 0, 0, 1.0);
 }
 .pos2{
-    background-image: url("./xback2.jpg");
+    background-image: url("./back2.jpg");
     background-size: cover; /* Ensure the background image covers the entire container */
         background-position: center; /* Center the background image */
         background-repeat: no-repeat; /* Prevent the background image from repeating */
    
 }
 .pos3{
-    background-image: url("./xback3.jpg");
+    background-image: url("./back3.jpg");
     background-size: cover; /* Ensure the background image covers the entire container */
         background-position: center; /* Center the background image */
-        background-repeat: no-repeat; /* Prevent the background image from repeating */
-   
+        background-repeat: no-repeat; /* Prevent the background image from repeating */   
 }
+
+/* .grids background-image{
+    opacity: 0.2;
+} */
+
 .pos{
     border-radius: 20px;
     line-height: 20px;
