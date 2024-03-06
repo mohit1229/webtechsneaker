@@ -90,7 +90,7 @@ button:hover {
     text-align: center;
     font-size: 180px;   
     font-weight: bold;
-    margin-top: 50px;  
+    margin-top: 30px;  
 } 
 
 .image-container {
@@ -410,6 +410,7 @@ h2{
 
 
 footer{
+    margin-top: 30px;
     height: 30vh;
     background-color: #24252A;
     color:#edf0f1;
